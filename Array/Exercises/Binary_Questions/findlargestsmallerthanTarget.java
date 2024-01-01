@@ -1,19 +1,18 @@
 package Array.Exercises.Binary_Questions;
 
-public class findSmallestGreatherthanTarget {
+public class findlargestsmallerthanTarget {
 
   public static void main(String[] args) {
     int[] a = { 2, 3, 5, 9, 14, 16, 18 };
-    int target = 20;
+    int target =-1;
 
     System.out.println(smallestElemet(a, target));
   }
 
   static int smallestElemet(int[] a, int target) {
-
     // if largest hain vo agar array ke end se bhee bada hua to : target set bada and usmee bhee smallest to nahi hoga :
-    if(target>a[a.length-1]){
-        return -1;
+    if (target < a[0]) {
+      return -1; 
     }
     int start = 0;
     int end = a.length - 1;
@@ -30,6 +29,6 @@ public class findSmallestGreatherthanTarget {
       }
     }
 
-    return a[start];
+    return a[end];
   }
 }

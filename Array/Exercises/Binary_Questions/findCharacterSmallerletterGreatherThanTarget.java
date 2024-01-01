@@ -1,31 +1,32 @@
 package Array.Exercises.Binary_Questions;
 
-public class findSmallestGreatherthanTarget {
+public class findCharacterSmallerletterGreatherThanTarget {
 
   public static void main(String[] args) {
-    int[] a = { 2, 3, 5, 9, 14, 16, 18 };
-    int target = 20;
+    char[] a = { 'x', 'x', 'y', 'y' };
+    char target = 'z';
 
     System.out.println(smallestElemet(a, target));
+    // System.out.println('d'<target);
   }
 
-  static int smallestElemet(int[] a, int target) {
-
+  static char smallestElemet(char[] a, char target) {
     // if largest hain vo agar array ke end se bhee bada hua to : target set bada and usmee bhee smallest to nahi hoga :
-    if(target>a[a.length-1]){
-        return -1;
-    }
+
     int start = 0;
     int end = a.length - 1;
-    int min = Integer.MAX_VALUE;
     int mid = -1;
+    if (target > a[a.length - 1]) {
+      return a[start];
+    }
+    if (target < a[start]) {
+      return a[start];
+    }
     while (start <= end) {
       mid = start + ((end - start) / 2);
-      if (a[mid] == target) {
-        return a[mid];
-      } else if (a[mid] > target) {
+      if (a[mid] >= target) {
         end = mid - 1;
-      } else if (a[mid] < target) {
+      } else if (a[mid] <= target) {
         start = mid + 1;
       }
     }
