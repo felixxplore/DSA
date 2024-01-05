@@ -1,0 +1,31 @@
+Binary searching in array : time complexity : log(n)
+
+tip : when you learn any concept which ask your self :
+
+- when you want to find answer of searching of any element  and traverse each iteration for finding, so you time complexity is O(n)
+- here i find element in entire search space :
+- binary searching is only applicable only on sorted array
+
+binary searching approach :
+- first declare start and end :
+- go in loop until start<=end
+- find mid using start and end in inner loop
+- if (my element == [mid]) return mid;
+- if (my element < [mid]) return end=mid-1;
+- if (my element > [mid]) return start=mid+1;
+
+
+apply binary searching using recursive method :
+- select paramter : arr, start, end, element
+- before find mid apply condition is ready for mid : 
+- if start>end : return -1;
+- then find mid:
+- now if [mid]==element return mid;
+- if element > [mid] here call recursive : arr,mid+1,end, element :
+- if element < [mid] here call recursive : arr, start, mid-1, element :
+
+- when i solving it needed to return value : 
+    - when i solving binary question last me return karna jaruri hain : to we can add else condition default return last call : recursive call :
+
+- what is time complexity of binary in using recursive :
+    - 
