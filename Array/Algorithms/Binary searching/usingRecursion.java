@@ -1,7 +1,10 @@
 public class usingRecursion {
 
+    // here we found element using recursive approach :
+    // apply binary searching to find element :
+    // time complexity of this algo is O(log n)
   public static void main(String[] args) {
-    
+
   }
 
   static int findElement(int[] a, int element) {

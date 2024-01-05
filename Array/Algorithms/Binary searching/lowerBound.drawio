@@ -1,0 +1,45 @@
+<mxfile host="65bd71144e">
+    <diagram id="SBKJSqO2KPCPmP4AssBf" name="Page-1">
+        <mxGraphModel dx="2132" dy="1211" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="3,5,8,15,19" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="90" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;fontSize=20;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Lower Bound&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="10" width="150" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="smallest index such that {&amp;nbsp;arr[index] &amp;gt;=n &lt;u&gt;}&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="10" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;let assume here n=8 ;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 3 is : 3&amp;gt;=8 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 5&amp;gt;=8 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 8&amp;gt;=8 yes so&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;here 8 is smallest element that larger than number:&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="120" width="510" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;let assume here n=9 ;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 3 is : 3&amp;gt;=9 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 5&amp;gt;=9 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 8&amp;gt;=9 no&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: center;&quot;&gt;observe 15&amp;gt;=9 yes so answer is 15 and their index is 3&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;here 8 is smallest element that larger than number:&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="320" width="590" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;let assume here n=20 ;&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 3 is : 3&amp;gt;=20 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 5&amp;gt;=20 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 8&amp;gt;=20 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 15&amp;gt;=20 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;observe 19&amp;gt;=20 no&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;text-align: center;&quot;&gt;here our array is completed so return -1&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="550" width="500" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="here you observe &amp;gt;= if target element equal to array&amp;nbsp;&lt;br&gt;&amp;nbsp;elemtn so return target&lt;br&gt;&amp;nbsp;element&lt;br&gt;&amp;nbsp;so here we need to use =&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="60" width="490" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="wKGok9b0vHZKTqyyXmkP-17" value="our arraay is : 0," style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="71" y="820" width="740" height="300" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="0JV90g3r7eB9GkDrGayM" name="Page-2">
+        <mxGraphModel dx="1386" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
