@@ -3,7 +3,7 @@ package Array.Exercises.Binary_Questions;
 public class FindPeakElement {
 
   public static void main(String[] args) {
-    int[] a = { 1, 2, 3 };
+    int[] a = { 4,5,6,1,2,3 };
     System.out.println(peakElement(a));
   }
 
