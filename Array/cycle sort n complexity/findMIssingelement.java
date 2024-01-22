@@ -18,7 +18,7 @@ public class findMIssingelement {
         return i + 1;
       }
     }
-    return a.length + 1;
+    return a.length + 1;  
   }
 
   //   range -1 to n : means 0 to n a[i]-1;
