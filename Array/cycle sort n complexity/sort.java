@@ -3,7 +3,8 @@ import java.util.Arrays;
 public class sort {
 
   public static void main(String[] args) {
-    int[] a = { 5, 2, 4, 1, 3 };
+    // int[] a = { 1, 2,3, 4, 3, 2 };
+    int[] a = { 4, 3, 2,7, 8, 2, 3, 1 };
 
     sorting(a);
     System.out.println(Arrays.toString(a));
@@ -13,7 +14,7 @@ public class sort {
     int i = 0;
     while (i < a.length) {
       int correctPosition = a[i] - 1;
-      if (a[i] != a[correctPosition]) {
+      if (correctPosition < a.length && a[i] != a[correctPosition]) {
         int temp = a[i];
         a[i] = a[correctPosition];
         a[correctPosition] = temp;
@@ -23,7 +24,6 @@ public class sort {
     }
   }
 }
-
 /*
  * Initial Array: { 3, 1, 4, 2, 5 }
 
