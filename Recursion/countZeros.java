@@ -1,4 +1,4 @@
-package Recursion.Learning;
+package Recursion;
 
 public class countZeros {
     public static void main(String[] args) {

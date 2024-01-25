@@ -1,5 +1,4 @@
-package pattern;
-
+ 
 public class _3pattern {
 
   public static void main(String[] args) {

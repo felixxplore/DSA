@@ -1,10 +1,8 @@
-package pattern;
-
 public class _9pattern {
 
   public static void main(String[] args) {
     int size = 5;
-    for (int row = 1; row <= 2 * size-1; row++) {
+    for (int row = 1; row <= 2 * size - 1; row++) {
       // create space :
       int element = row > size ? 2 * size - row : row;
       int space = size - element;

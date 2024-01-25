@@ -1,4 +1,4 @@
-package pattern;
+ 
 
 public class _8pattnern {
 
